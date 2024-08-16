@@ -1,10 +1,13 @@
 import React from 'react';
+import Register from '../components/Register';
+import Login from '../components/Login';
 
 const HomePage = () => {
     return (
         <div>
-            <h2>Welcome to the Home Page!</h2>
-            <p>This is where the content goes.</p>
+            <h1>Home Page</h1>
+            <Register />
+            <Login />
         </div>
     );
 };
