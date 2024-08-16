@@ -3,7 +3,12 @@ import React from 'react';
 const Navbar = () => {
     return (
         <nav>
-            <h2>My App</h2>
+            <h1>My App</h1>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
         </nav>
     );
 };
